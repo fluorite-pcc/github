@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Project Index</title>
+    <style>
+        :root { --bg:#0b1220; --card:#0f1724; --muted:#9aa4b2; --accent:#0366d6; color-scheme: dark; }
+        html,body { height:100%; margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial; background:linear-gradient(180deg,#071122 0%, #071829 100%); color:#e6eef8; }
+        .wrap { max-width:900px; margin:48px auto; padding:28px; background:var(--card); border-radius:12px; box-shadow:0 6px 30px rgba(2,6,23,.6); }
+        header { display:flex; align-items:center; gap:14px; }
+        .logo { width:44px; height:44px; border-radius:8px; background:linear-gradient(135deg,var(--accent),#2ea44f); display:flex; align-items:center; justify-content:center; font-weight:700; color:white; }
+        h1 { margin:0; font-size:1.25rem; }
+        p.meta { margin:6px 0 18px; color:var(--muted); }
+        main { line-height:1.6; }
+        pre { background:#041025; padding:12px; border-radius:8px; overflow:auto; font-size:.9rem; color:#cfe8ff; }
+        footer { margin-top:20px; color:var(--muted); font-size:.9rem; }
+        a { color:var(--accent); text-decoration:none; }
+    </style>
+</head>
+<body>
+    <div class="wrap" role="main">
+        <header>
+            <div class="logo" aria-hidden="true">GH</div>
+            <div>
+                <h1>Project Index</h1>
+                <p class="meta">File: /f:/Program/git/github/index.html — Basic starter page</p>
+            </div>
+        </header>
+
+        <main>
+            <p>Welcome — this is a minimal starter HTML you can edit. Use this file to preview your project or add links to your repository files.</p>
+
+            <h2>Quick Usage</h2>
+            <pre><code>&lt;!-- Open this file in a browser to preview --&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt; …</code></pre>
+
+            <h3>Samples</h3>
+            <ul>
+                <li>Add README.md in the repo and link to it here.</li>
+                <li>Drop a <code>styles.css</code> or <code>index.js</code> next to this file and include them.</li>
+            </ul>
+        </main>
+
+        <footer>
+            Tip: press Ctrl+Shift+R to hard-reload the page after editing. <a href="#" onclick="alert('Edit index.html in your editor')">Edit file</a>
+        </footer>
+    </div>
+</body>
+</html>
